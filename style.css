@@ -20,6 +20,7 @@ body{
 .header a{
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 500;
 }
 ul{
     display: flex;
@@ -34,6 +35,7 @@ ul{
     flex-wrap: wrap;
     justify-content:space-around;
     padding: 10vh 15vw;
+    gap: 4vh;
     font-size: 18px;
     color: #F9FAF8;
 }
@@ -42,9 +44,41 @@ ul{
     font-weight: 900;
     color: #F9FAF8;
 }
+.left-content{
+max-width: 450px;
+}
+.image-container{
+    max-width: 450px;
+    max-height: 275px;
+    overflow: hidden;
+    border-radius: 3%;
+}
 .right-image{
     border-color: #F9FAF8;
+    width: inherit;
+    height: auto;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 16vw;
+    max-height: 16vw;
     border-width: 2px;
-    width: 600px;
-    height: 300px;
+    border-color: red;
+}
+.card-image{
+    width: 200px;
+    height: 200px;
+    border-width: 2px;
+    border-color: aquamarine;
 }
