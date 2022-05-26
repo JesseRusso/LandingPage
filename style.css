@@ -50,13 +50,15 @@ max-width: 450px;
 .image-container{
     max-width: 450px;
     max-height: 275px;
-    overflow: hidden;
     border-radius: 3%;
 }
 .right-image{
     border-color: #F9FAF8;
     width: inherit;
     height: auto;
+    width: 450px;
+    height: auto;
+    
 }
 .information{
     display: flex;
@@ -66,19 +68,28 @@ max-width: 450px;
 .cards{
     display: flex;
     flex-flow: row wrap;
-
 }
 .card{
     display: flex;
     flex-direction: column;
-    max-width: 16vw;
-    max-height: 16vw;
+    max-width: 200px;
     border-width: 2px;
     border-color: red;
+    gap: 1vh;
 }
 .card-image{
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
     border-width: 2px;
-    border-color: aquamarine;
+    border-color: red;
+    overflow: hidden;
+    border-radius: 3%;
+}
+.card-image img{
+    display: block;
+    max-width: 200px;
+    max-height: auto;
+    border-radius: 3%;
+    border-color: grey;
+    border-radius: 2px;
 }
