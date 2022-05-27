@@ -28,6 +28,7 @@ ul{
     padding: 0px;
     gap: 5vw;
     color: #F9FAF8;
+    font-size: 18px;
 }
 .hero{
     background-color: #1F2937;
@@ -58,38 +59,111 @@ max-width: 450px;
     height: auto;
     width: 450px;
     height: auto;
-    
+    border-radius: 1vw;
+}
+button{
+    height: 2.5em;
+    max-height: 4em;
+    flex-shrink: 0;
+    border-radius: .25vw;
+    border-color: #F9FAF8;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-style: solid;
+    padding: 0 1.5vw;
+    font-weight: 600;
+}
+.left-content button{
+    border-color: #3882f6;
 }
 .information{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 10vh;
+}
+.information h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 .cards{
     display: flex;
     flex-flow: row wrap;
+    gap: 3vw;
 }
 .card{
     display: flex;
     flex-direction: column;
-    max-width: 200px;
-    border-width: 2px;
-    border-color: red;
+    width: 200px;
+    text-align: center;
     gap: 1vh;
 }
 .card-image{
+    box-sizing: border-box;
     max-width: 200px;
     max-height: 200px;
-    border-width: 2px;
-    border-color: red;
+    border-width: 3px;
     overflow: hidden;
-    border-radius: 3%;
+    border-radius: 5%;
+    border-color: #3882f6;
+    border-style: solid;
 }
 .card-image img{
     display: block;
-    max-width: 200px;
-    max-height: auto;
-    border-radius: 3%;
-    border-color: grey;
-    border-radius: 2px;
+    width: 200px;
+    height: 200px;
+}
+.card-image .custom-image{
+    width: max-content;
+    height: max-content;
+}
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 10vh 25vw;
+}
+.testimonial .quote-credit{
+    font-size: 18px;
+    color: black;
+    align-self: flex-end;
+    font-weight: 700;
+}
+.call-to-action{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.action-card{
+    display: flex;
+    flex: 0 1 auto;
+    background-color: #3882f6;
+    border-radius: 0.5vw;
+    color: #F9FAF8;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10vw;
+    padding: 4vh 5vw;
+    margin: 8vh auto;
+    max-width: 50vw;
+}
+.action-text h2{
+    margin: 0;
+}
+.action-text{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    text-align: center;
+    max-width: 100vw;
+    padding: 2.5vh 0;
+    background-color: #1F2937;
+    color:#F9FAF8;
 }
