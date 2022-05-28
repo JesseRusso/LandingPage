@@ -142,13 +142,21 @@ button{
     align-self: flex-end;
     font-weight: 700;
 }
+.lower-hero-background{
+    background-image: url("./images/pexels-chevanon-photography-302899.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:top;
+    background-size: cover;
+    min-height: 40vh;
+}
 .call-to-action{
     display: flex;
     justify-items: center;
     align-items: center;
     box-sizing: border-box;
     overflow: hidden;
-    background-color: #ffdcc3a0;
+    min-height: inherit;
 }
 .action-card{
     display: flex;
